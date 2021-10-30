@@ -3,8 +3,8 @@ import React from 'react'
 export default function TestimonalSection() {
     return (
         <section className="text-gray-600 body-font h-screen pt-12 flex align-middle">
-        <div className="container px-5 py-24 max-w-4xl m-auto">
-          <h1 className="text-5xl font-bold title-font mb-32 text-center bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-blue-400 to-purple-600">What early adopters say about us ?</h1>
+        <div className="container px-5 py-24 max-w-6xl m-auto">
+          <h1 className="text-6xl font-bold title-font mb-32 text-center bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-blue-400 to-purple-600">What early adopters say about us ?</h1>
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/2 w-full">
               <div className="h-full bg-gradient-to-r from-blue-50 to-indigo-50 p-8 rounded-xl shadow-lg">

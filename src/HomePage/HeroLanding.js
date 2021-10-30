@@ -1,13 +1,14 @@
 import React from 'react'
 import logo from '../images/vyap.png'
+import backgroundImg from '../images/background.svg'
 
 export default function HeroLanding() {
     return (
-        <section className="py-12 pt-12  flex align-middle px-4 h-screen text-center max-w-4xl m-auto">
-            <div className="w-full max-w-4xl m-auto">
+        <section className="py-12 pt-12  flex align-middle px-4 h-screen text-center bg-cover" style={{ backgroundImage: `url(${backgroundImg}` }}>
+            <div className="w-full max-w-6xl m-auto">
                 <img src={logo} className="w-16 m-auto opacity-90 mb-12" />
-                <h2 className="text-7xl mt-2 mb-6 leading-tight font-heading font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-blue-400 to-purple-600">Reach all your retailers in one place</h2>
-                <p className="text-xl mb-8 text-gray-500 leading-relaxed">B2B marketplace app that helps wholesalers connect with local retailers and take orders, update payments, manage deliveries among other things.</p>
+                <h1 className="text-8xl mt-2 mb-6 leading-tight font-heading font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-blue-400 to-purple-600">Reach all your retailers in one place</h1>
+                <p className="text-2xl mb-8 text-gray-500 leading-relaxed">B2B marketplace app that helps wholesalers connect with local retailers and take orders, update payments, manage deliveries among other things.</p>
                 <div>
                     <a className="inline-block mt-3 py-4 px-8 mr-6 leading-none text-white bg-blue-600 hover:bg-blue-700 font-semibold rounded shadow" href="#"
                     >

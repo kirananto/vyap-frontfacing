@@ -1,0 +1,17 @@
+<svg id="visual" viewBox="0 0 960 540" width="960" height="540" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#3a4feed5;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#3b38caad;stop-opacity:1" />
+    </linearGradient>
+    <g transform="translate(960, 0)">
+        <path
+            d="M0 216C-27.3 192.6 -54.7 169.2 -89 154.2C-123.3 139.1 -164.7 132.3 -187.1 108C-209.4 83.7 -212.7 41.8 -216 0L0 0Z"
+            fill="url(#grad1)" />
+    </g>
+    <g transform="translate(0, 540)">
+        <path
+            d="M0 -216C32.7 -201.9 65.3 -187.7 99 -171.5C132.7 -155.2 167.4 -136.9 187.1 -108C206.7 -79.1 211.4 -39.5 216 0L0 0Z"
+            fill="url(#grad1)" />
+    </g>
+</svg>
