@@ -2,6 +2,7 @@ import * as React from "react"
 import BenefitsSection from "../HomePage/BenefitsSection"
 import FooterSection from "../HomePage/FooterSection"
 import HeroLanding from "../HomePage/HeroLanding"
+import Product from "../HomePage/Product"
 import TestimonalSection from "../HomePage/TestimonalSection"
 
 // markup
@@ -11,6 +12,7 @@ const IndexPage = () => {
       <div className="w-screen">
         <HeroLanding />
         <BenefitsSection />
+         <Product />
         <TestimonalSection />
         <FooterSection />
       </div>

@@ -2,19 +2,12 @@ import React from 'react'
 
 export default function BenefitsSection() {
     return (
-        <section className="pt-36 pb-16 px-4 w-full h-screen pt-12 flex align-middle bg-gray-50">
+        <section className="pt-36 pb-16 px-4 w-full min-h-screen section-height pt-12 flex align-middle bg-gray-50">
             <div className=" max-w-4xl m-auto">
-                <h2 className="text-6xl font-bold title-font mb-32 text-center bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-blue-400 to-purple-600">What are the benefits?</h2>
-                <div className="flex max-w-sm mb-16 mx-auto text-center border-b-2">
-                    <div className="w-1/2 pb-2 border-b-4 border-blue-600">
-                        <button className="hover:text-blue-600">For Suppliers</button>
-                    </div>
-                    <div className="w-1/2 pb-2">
-                        <button className="hover:text-blue-600">For Retailers</button>
-                    </div>
-                </div>
-                <div className="flex flex-wrap -mx-32 gap-8 justify-center text-center">
-                    <div className="lg:w-80 mb-8 lg:mb-0 bg-gradient-to-r from-blue-50 to-indigo-50 p-12 rounded-xl shadow-lg">
+                <h2 className="text-5xl md:text-6xl sm:text-8xl font-bold title-font mb-16 lg:mb-32 text-center bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-blue-400 to-purple-600">What are the benefits?</h2>
+                
+                <div className="flex flex-wrap lg:-mx-16 xl:-mx-32 gap-4 lg:gap-8 justify-center text-center">
+                    <div className="w-full md:w-80 m-4 lg:m-0 bg-gradient-to-r from-blue-50 to-indigo-50 p-12 rounded-xl shadow-lg">
                         <div className="bg-gradient-to-r from-indigo-300 to-purple-300 p-12 rounded-full w-32 h-32 mx-auto flex place-content-center">
                             <div>
                                 <svg className="text-white w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -25,7 +18,7 @@ export default function BenefitsSection() {
                         <h3 className="text-2xl mt-10 mb-4 font-semibold font-heading">Process your orders instantly</h3>
                         <p className="text-gray-400 leading-relaxed">Get your orders instantly at your warehouse where they can pack and deliver the item faster.</p>
                     </div>
-                    <div className="lg:w-80 mb-8 lg:mb-0 bg-gradient-to-r from-blue-50 to-indigo-50 p-12 rounded-xl shadow-lg">
+                    <div className="w-full md:w-80 m-4 lg:m-0 bg-gradient-to-r from-blue-50 to-indigo-50 p-12 rounded-xl shadow-lg">
                         <div className="bg-gradient-to-r from-indigo-300 to-purple-300 p-12 rounded-full w-32 h-32 mx-auto flex place-content-center">
                             <div>
                                 <svg className="text-white w-8 h-8 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -37,7 +30,7 @@ export default function BenefitsSection() {
                         <p className="text-gray-400 leading-relaxed">Best in class technology to help your sales reps to sell more and the logistics team to deliver faster.
                         </p>
                     </div>
-                    <div className="lg:w-80 mb-8 lg:mb-0 bg-gradient-to-r from-blue-50 to-indigo-50 p-12 rounded-xl shadow-lg">
+                    <div className="w-full md:w-80  m-4 lg:m-0 bg-gradient-to-r from-blue-50 to-indigo-50 p-12 rounded-xl shadow-lg">
 
                         <div className="bg-gradient-to-r from-indigo-300 to-purple-300 p-12 rounded-full w-32 h-32 mx-auto flex place-content-center">
                             <div>
