@@ -1,7 +1,11 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://vyap.app",
-    title: "Vyap",
+    title: "Vyap | Helping wholesales reach all their retailers in one place.",
+    description:  "B2B marketplace app that helps wholesalers connect with local retailers and take orders, update payments, manage deliveries among other things.",
+    siteUrl: `https://vyap.app`,
+    social: {
+      twitter: `VyapApp`,
+    },
   },
   plugins: [
     "gatsby-plugin-styled-components",
@@ -18,7 +22,15 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        name: `Vyap | Helping wholesales reach all their retailers in one place.`,
+        short_name: `GatsbyJS`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        // This will impact how browsers show your PWA/website
+        // https://css-tricks.com/meta-theme-color-and-trickery/
+        // theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: "src/images/new_logo.svg",
       },
     },
     "gatsby-plugin-sharp",

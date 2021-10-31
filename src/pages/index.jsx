@@ -1,4 +1,5 @@
 import * as React from "react"
+import Seo from "../seo"
 import BenefitsSection from "../HomePage/BenefitsSection"
 import FooterSection from "../HomePage/FooterSection"
 import HeroLanding from "../HomePage/HeroLanding"
@@ -9,6 +10,7 @@ import TestimonalSection from "../HomePage/TestimonalSection"
 const IndexPage = () => {
   return (
     <main className="bg-gradient-to-r from-indigo-50 via-blue-50 to-purple-50">
+      <Seo />
       <div className="w-screen">
         <HeroLanding />
         <BenefitsSection />
