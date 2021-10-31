@@ -4,7 +4,7 @@ import backgroundImg from '../images/background.svg'
 
 export default function HeroLanding() {
     return (
-        <section className="py-12 pt-12  flex align-middle px-4 min-h-screen section-height text-center bg-cover" style={{ backgroundImage: `url(${backgroundImg}` }}>
+        <section className="py-12 pt-12 flex align-middle px-4 min-h-screen section-height text-center bg-cover hero-bg" style={{ backgroundImage: `url(${backgroundImg}` }}>
             <div className="w-full max-w-xl lg:max-w-5xl  m-auto">
                 <img alt="vyap logo" src={logo} className="w-16 m-auto opacity-90 mb-12" />
                 <h1 className="text-5xl md:text-6xl sm:text-8xl mt-2 mb-6 leading-tight font-heading font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-blue-400 to-purple-600">Reach all your retailers in one place</h1>
