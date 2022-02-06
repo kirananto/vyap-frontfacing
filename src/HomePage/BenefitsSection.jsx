@@ -16,7 +16,7 @@ export default function BenefitsSection() {
                             </div>
                         </div>
                         <h3 className="text-2xl mt-10 mb-4 font-semibold font-heading">Process your orders instantly</h3>
-                        <p className="text-gray-400 leading-relaxed">Get your orders instantly at your warehouse where they can pack and deliver the item faster.</p>
+                        <p className="text-gray-500 leading-relaxed">Get your orders instantly at your warehouse where they can pack and deliver the item faster.</p>
                     </div>
                     <div className="w-full md:w-80 m-4 lg:m-0 bg-gradient-to-r from-blue-50 to-indigo-50 p-12 rounded-xl shadow-lg">
                         <div className="bg-gradient-to-r from-indigo-300 to-purple-300 p-12 rounded-full w-32 h-32 mx-auto flex place-content-center">
@@ -27,7 +27,7 @@ export default function BenefitsSection() {
                             </div>
                         </div>
                         <h3 className="text-2xl mt-10 mb-4 font-semibold font-heading">Improve your sales channel</h3>
-                        <p className="text-gray-400 leading-relaxed">Best in class technology to help your sales reps to sell more and the logistics team to deliver faster.
+                        <p className="text-gray-500 leading-relaxed">Best in class technology to help your sales reps to sell more and the logistics team to deliver faster.
                         </p>
                     </div>
                     <div className="w-full md:w-80  m-4 lg:m-0 bg-gradient-to-r from-blue-50 to-indigo-50 p-12 rounded-xl shadow-lg">
@@ -40,7 +40,7 @@ export default function BenefitsSection() {
                             </div>
                         </div>
                         <h3 className="text-2xl mt-10 mb-4 font-semibold font-heading">Increase your basket size</h3>
-                        <p className="text-gray-400 leading-relaxed">vyap helps you to introduce new products, market your promotions, and fill voids to help you drive more revenue.</p>
+                        <p className="text-gray-500 leading-relaxed">vyap helps you to introduce new products, market your promotions, and fill voids to help you drive more revenue.</p>
                     </div>
                 </div>
             </div>

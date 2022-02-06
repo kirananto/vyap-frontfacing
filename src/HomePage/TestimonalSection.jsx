@@ -15,13 +15,13 @@ export default function TestimonalSection() {
                                 that makes my customers and staff
                                 happy. Their modern ordering system
                                 helps us work smarter and faster.</p>
-                            <a className="inline-flex items-center">
+                            <div className="inline-flex items-center">
                                 <div alt="testimonial" className="w-12 h-12 rounded-full flex-shrink-0 bg-gradient-to-r from-indigo-400 to-purple-400" />
                                 <span className="flex-grow flex flex-col pl-4">
-                                    <span className="title-font font-medium text-gray-900">Abdul Latheef</span>
+                                    <span className="title-font font-semibold text-gray-900">Abdul Latheef</span>
                                     <span className="text-gray-500 text-sm">Openmart - Grocery wholesaler</span>
                                 </span>
-                            </a>
+                            </div>
                         </div>
                     </div>
                     <div className="p-4 md:w-1/2 w-full">
@@ -34,13 +34,13 @@ export default function TestimonalSection() {
                                 have access to our entire catalogue in
                                 the palm of their hands. It’s truly a
                                 gamechanger.</p>
-                            <a className="inline-flex items-center">
+                            <div className="inline-flex items-center">
                                 <div alt="testimonial" className="w-12 h-12 rounded-full flex-shrink-0 bg-gradient-to-r from-indigo-400 to-purple-400" />
                                 <span className="flex-grow flex flex-col pl-4">
-                                    <span className="title-font font-medium text-gray-900">Mohammed Rishad</span>
+                                    <span className="title-font font-semibold text-gray-900">Mohammed Rishad</span>
                                     <span className="text-gray-500 text-sm">GCC traders - Chocolate wholesaler</span>
                                 </span>
-                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
