@@ -61,9 +61,11 @@ export default function FooterSection() {
             </nav> */}
                     </div>
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                        <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Download the app</h2>
+                        <h2 className="title-font font-bold text-gray-900 tracking-widest text-sm mb-3">Download the app</h2>
                         <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
-                            Public beta coming soon...
+                            <a className="w-48 -ml-3" href='https://play.google.com/store/apps/details?id=app.vyap.app.twa&hl=en_IN&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+                                <img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' />
+                            </a>
                             {/* <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
                                 <label for="footer-field" className="leading-7 text-sm text-gray-600">Email</label>
                                 <input type="text" id="footer-field" name="footer-field" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-blue-200 focus:border-blue-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
