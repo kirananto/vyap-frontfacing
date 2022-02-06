@@ -76,6 +76,7 @@
        ].concat(meta)}
      >
        <title>{defaultTitle}</title>
+       <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
      </Helmet>
    )
  }

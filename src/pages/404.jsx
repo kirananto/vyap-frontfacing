@@ -29,7 +29,7 @@ const codeStyles = {
 const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
-      <Seo />
+      <Seo title="Page not found"/>
       <h1 style={headingStyles}>Page not found</h1>
       <p style={paragraphStyles}>
         Sorry{" "}

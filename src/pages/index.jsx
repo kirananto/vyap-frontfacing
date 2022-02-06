@@ -10,7 +10,7 @@ import TestimonalSection from "../HomePage/TestimonalSection"
 const IndexPage = () => {
   return (
     <main className="bg-gradient-to-r from-indigo-50 via-blue-50 to-purple-50">
-      <Seo />
+      <Seo  title="Vyap | Helping wholesalers reach all their retailers in one place" />
       <div className="w-screen">
         <HeroLanding />
         <BenefitsSection />

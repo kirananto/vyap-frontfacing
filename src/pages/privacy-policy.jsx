@@ -5,7 +5,7 @@ import Seo from "../seo"
 const IndexPage = () => {
   return (
     <main className="bg-gradient-to-r from-indigo-50 via-blue-50 to-purple-50">
-      <Seo />
+      <Seo title="Privacy Policy"/>
       <div className="w-full max-w-4xl m-auto py-36">
         <h1
           className="text-3xl font-bold title-font bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-blue-400 to-purple-600"
