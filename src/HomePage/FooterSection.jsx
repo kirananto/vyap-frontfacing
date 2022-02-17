@@ -62,9 +62,17 @@ export default function FooterSection() {
                     </div>
                     <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                         <h2 className="title-font font-bold text-gray-900 tracking-widest text-sm mb-3">Download the app</h2>
-                        <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
+                        <div className="flex justify-start items-start md:justify-start">
                             <a className="w-48 -ml-3" href='https://play.google.com/store/apps/details?id=app.vyap.app.twa&hl=en_IN&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
                                 <img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' />
+                            </a>
+
+                            <a className="w-48 pr-6 pl-0 mt-3" href="https://apps.apple.com/us/app/vyap/id1608763967?itsct=apps_box_badge&amp;itscg=30200" 
+                            >
+                                <img 
+                                src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1644969600&h=01656879720e3b0e970e712f20b9eceb"
+                                 alt="Download on the App Store"
+                                 className="w-48 h-11" />
                             </a>
                             {/* <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
                                 <label for="footer-field" className="leading-7 text-sm text-gray-600">Email</label>
