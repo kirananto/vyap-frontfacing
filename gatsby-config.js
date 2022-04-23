@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Vyap | Helping wholesales reach all their retailers in one place.",
-    description:  "B2B marketplace app that helps wholesalers connect with local retailers and take orders, update payments, manage deliveries among other things.",
+    description:  "Workflow management app that helps wholesalers connect with local retailers and create orders, update payments and manage purchase entries & employees.",
     siteUrl: `https://vyap.app`,
     social: {
       twitter: `VyapApp`,

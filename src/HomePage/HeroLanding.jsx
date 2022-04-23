@@ -8,7 +8,7 @@ export default function HeroLanding() {
             <div className="w-full max-w-xl lg:max-w-5xl  m-auto">
                 <img alt="vyap logo" src={logo} className="w-16 m-auto opacity-90 mb-12" />
                 <h1 className="text-5xl md:text-6xl sm:text-8xl mt-2 mb-6 leading-tight font-heading font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 via-blue-400 to-purple-600">Reach all your retailers in one place</h1>
-                <p className="text-xl sm:text-2xl mb-8 text-gray-500 leading-relaxed">B2B marketplace app that helps wholesalers connect with local retailers and take orders, update payments, manage deliveries among other things.</p>
+                <p className="text-xl sm:text-2xl mb-8 text-gray-500 leading-relaxed">Workflow management app that helps wholesalers connect with local retailers and create orders, update payments and manage purchase entries & employees.</p>
                 <div>
                     <div className="inline-block mt-3 py-4 px-8 mr-6 leading-none text-white bg-blue-600 hover:bg-blue-700 font-semibold rounded shadow" href="#"
                     >
